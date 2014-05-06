@@ -14,11 +14,10 @@
 
     <link rel="stylesheet" href="/assets/css/dusseldorfer-heineburschenschaft.css">
   </head>
-  <body>
+  <body itemscope itemtype="http://schema.org/WebPage">
     <header class="container">
       <h1><a href="/">Düsseldorfer Heineburschenschaft</a></h1>
       <p class="lead">Soll sein Name ewig in Erinnerung bleiben. Dafür sorgt die Burschenschaft.</p>
-      <hr>
     </header>
     <nav class="container">
       <ul class="nav nav-justified">
@@ -26,16 +25,13 @@
           <li class="active"><a href="/informationen">Informationen</a></li>
           <li><a href="/uber-uns">Über Uns</a></li>
       </ul>
-      <hr>
     </nav>
     <main class="container">
-    <article class="content">
-  <header>
-    <p><small>&bdquo;Initiation des Schülers&rdquo; am <time datetime="2014-05-06">06.05.2014</time> von Düsseldorfer Heineburschenschaft in der Kategorie <a href="/informationen/">informationen</a> geschrieben</small></p>
-  </header>
-  <div class="entry"><h1>Initiation des Schülers - Grad I.</h1>
+    <article class="content" itemscope itemtype="http://schema.org/Article">
+  <div class="entry" itemprop="articleBody"><h1>Initiation des Schülers - Grad I.</h1>
 
-<blockquote><p>Credimus in fraternitatem.</p></blockquote>
+<blockquote><p>Habimus in Atta Troll.
+  <footer>Gründer der <cite>Düsseldorfer Heineburschenschaft</cite></footer></p></blockquote>
 
 <p>Sein Name werde geheiligt. Dafür steht die Burschenschaft.</p>
 
@@ -55,11 +51,18 @@ Durch Vibration soll der Schüler Heinrich Heine als Teil seines Selbst akzeptie
 <p>Die Prozedur des Testes darf nicht auf Papier geschrieben werden. Sie gilt als Antithese des Lebenswerks Heinrich Heines als Schriftsteller. Sie darf nur von Mund zu Mund überbracht werden.
 Soll sein Name ewig in Erinnerung bleiben. Dafür sorgt die <a href="/">Düsseldorfer Heineburschenschaft</a>.</p>
 </div>
+  <footer>
+    <small>&bdquo;<em itemprop="name">Initiation des Schülers</em>&rdquo; am <time itemprop="datePublished" datetime="2014-05-06">06.05.2014</time> von <strong itemprop="author">Düsseldorfer Heineburschenschaft</strong> in der Kategorie <a href="/informationen/">Informationen</a> geschrieben</small>
+  </footer>
 </article>
+
+<ol class="breadcrumb">
+  <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/informationen" itemprop="url"><span itemprop="title">Informationen</span></a></li>
+  <li class="active" itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="" itemprop="url"><span itemprop="title">Initiation des Schülers</span></a></li>
+</ol>
 
     </main>
     <footer class="container">
-      <hr>
       <p><small>&copy; Düsseldorfer Heineburschenschaft &mdash; <a href="/impressum">Impressum</a></small></p>
     </footer>
   </body>
