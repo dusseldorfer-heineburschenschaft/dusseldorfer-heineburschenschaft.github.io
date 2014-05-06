@@ -1,7 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-      <loc>http://www.dusseldorfer-heineburschenschaft.de/informationen/initiation-des-schulers</loc>
-      <lastmod>2014-05-06</lastmod>
-  </url>
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+    <url>
+        <loc>
+            http://www.dusseldorfer-heineburschenschaft.de//informationen/initiation-des-schulers
+        </loc>
+        <lastmod>2014-05-06T22:57:03+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.dusseldorfer-heineburschenschaft.de//impressum/</loc>
+        <lastmod>2014-05-06T22:57:03+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.dusseldorfer-heineburschenschaft.de//</loc>
+        <lastmod>2014-05-06T22:57:03+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.dusseldorfer-heineburschenschaft.de//uber-uns/</loc>
+        <lastmod>2014-05-06T22:57:03+02:00</lastmod>
+    </url>
 </urlset>
